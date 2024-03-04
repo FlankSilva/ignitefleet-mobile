@@ -1,0 +1,21 @@
+{
+  "extends": "@rocketseat/eslint-config/react",
+  "globals": {
+    "React": true,
+    "google": true,
+    "mount": true,
+    "mountWithRouter": true,
+    "shallow": true,
+    "shallowWithRouter": true,
+    "context": true,
+    "expect": true,
+    "jsdom": true,
+    "JSX": true
+  },
+  "rules": {
+    "camelcase":"off",
+    "@typescript-eslint/no-var-requires": "off",
+    "@typescript-eslint/no-explicit-any": "off",
+    "promise/param-names": "off"
+  }
+}
